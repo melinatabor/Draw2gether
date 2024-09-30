@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.inicio-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2em;
+    color: #fff;
+}
+
+.titulo-ia-draw {
+    font-size: 10rem; /* Tamaño de fuente grande */
+    background: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: grow 1s forwards;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-jugar {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.btn-jugar:hover {
+    background-color: #d160dc;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
