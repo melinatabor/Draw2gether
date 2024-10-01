@@ -1,7 +1,7 @@
-# 🎮  IADraw 
-IA Draw es un juego interactivo donde los usuarios dibujan objetos y una inteligencia artificial intenta adivinarlos. El proyecto utiliza **TensorFlow**, **FastAPI** y **p5.js**, proporcionando una experiencia educativa que enseña tanto el reconocimiento de imágenes como la interacción con modelos de IA. El backend maneja la generación de datos, el procesamiento de imágenes y el entrenamiento de un modelo de deep learning.
+# 🎮  Draw2gether
+Draw2gether es un juego interactivo donde los usuarios dibujan objetos y una inteligencia artificial intenta adivinarlos. El proyecto utiliza **TensorFlow**, **FastAPI** y **p5.js**, proporcionando una experiencia educativa que enseña tanto el reconocimiento de imágenes como la interacción con modelos de IA. El backend maneja la generación de datos, el procesamiento de imágenes y el entrenamiento de un modelo de deep learning.
 
-![Inicio](https://github.com/user-attachments/assets/18bdd341-2617-4ee6-a4fe-8d1fb504b728)
+![Inicio](https://github.com/user-attachments/assets/145257e5-354d-4a3d-a73a-a061d9ffdcfc)
 
 ## Índice
 - [Instalación](#instalación)
@@ -40,7 +40,7 @@ IA Draw es un juego interactivo donde los usuarios dibujan objetos y una intelig
     ```zsh
     uvicorn app:app --reload --port 5500
     ```
-6. Abre tu navegador y ve a http://localhost:8080/index.html para come
+6. Abre tu navegador y ve a http://localhost:8080/index.html para comenzar a jugar :)
 
 ## Uso
 1. Al abrir el juego, selecciona el botón "Jugar" en la pantalla de inicio.
