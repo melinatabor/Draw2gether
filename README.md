@@ -49,6 +49,8 @@ Draw2gether es un juego interactivo donde los usuarios dibujan objetos y una int
 4. Haz clic en el botón ¡LISTO! para que la IA intente adivinar lo que has dibujado.
 5. La IA mostrará si acertaste o si necesitas intentarlo de nuevo.
 
+![Inicio](https://github.com/user-attachments/assets/14bb5957-76a0-49d5-934c-979eb2acba08)
+
 ## 🚀 Características
 - __Reconocimiento de dibujos__: El juego utiliza un modelo de TensorFlow Lite para adivinar los objetos dibujados por el jugador.
 - __Generación de datos__: El backend genera imágenes de entrenamiento utilizando la API de QuickDraw para clases específicas.
