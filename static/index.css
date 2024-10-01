@@ -19,7 +19,7 @@ body, html {
 }
 
 .titulo-ia-draw {
-    font-size: 10rem; /* Tamaño de fuente grande */
+    font-size: 10rem;
     background: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

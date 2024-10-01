@@ -60,11 +60,11 @@ canvas {
 
 #predictions {
     border: 1px solid #ddd;
-    margin-right: 20px; /* Espacio entre el canvas y el mensaje */
+    margin-right: 20px;
 }
 
 #winning-message {
-    display: none; /* Inicialmente oculto */
+    display: none;
     font-size: 2em;
     color: #FFD700;
 }
