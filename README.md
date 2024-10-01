@@ -1,7 +1,7 @@
+![Inicio](https://github.com/user-attachments/assets/145257e5-354d-4a3d-a73a-a061d9ffdcfc)
+
 # 🎮  Draw2gether
 Draw2gether es un juego interactivo donde los usuarios dibujan objetos y una inteligencia artificial intenta adivinarlos. El proyecto utiliza **TensorFlow**, **FastAPI** y **p5.js**, proporcionando una experiencia educativa que enseña tanto el reconocimiento de imágenes como la interacción con modelos de IA. El backend maneja la generación de datos, el procesamiento de imágenes y el entrenamiento de un modelo de deep learning.
-
-![Inicio](https://github.com/user-attachments/assets/145257e5-354d-4a3d-a73a-a061d9ffdcfc)
 
 ## Índice
 - [Instalación](#instalación)
