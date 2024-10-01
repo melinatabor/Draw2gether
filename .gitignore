@@ -1,1 +1,21 @@
+# Archivos del entorno virtual
 env/
+venv/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs, bases de datos o resultados
+*.log
+*.sqlite3
+
+# Archivos de configuración del entorno local
+.env
+
+# Archivos de paquetes
+*.egg-info/
+dist/
+build/
