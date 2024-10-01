@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: quickdraw
+Version: 1.0.0
+Summary: An API for downloading and reading the google quickdraw data.
+Home-page: https://github.com/martinohanlon/quickdraw_python
+Author: Martin O'Hanlon
+Author-email: martin@ohanlonweb.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: requests
+
+# quickdraw
+
+[Google Quick, Draw!](https://quickdraw.withgoogle.com/) is a game which is 
+training a neural network to recognise doodles.
+
+`quickdraw` is an API for using the Google Quick, Draw! data 
+[quickdraw.withgoogle.com/data](https://quickdraw.withgoogle.com/data), 
+downloading the data files as and when needed, caching them locally and 
+allowing them to be used.
+
+## Getting started
+
++ Windows
+
+```bash
+pip install quickdraw
+```
+
++ macOS
+
+```bash
+pip3 install quickdraw
+```
+
++ Linux / Raspberry Pi
+
+```bash
+sudo pip3 install quickdraw
+```
+
+## Use
+
+Open the Quick Draw data, pull back an **anvil** drawing and save it.
+
+```python
+    from quickdraw import QuickDrawData
+    qd = QuickDrawData()
+    anvil = qd.get_drawing("anvil")
+    anvil.image.save("my_anvil.gif")
+```
+
+## Documentation
+
+[quickdraw.readthedocs.io](https://quickdraw.readthedocs.io)
+
