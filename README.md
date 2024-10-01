@@ -1,4 +1,4 @@
-# IADraw  🎮
+# 🎮  IADraw 
 IA Draw es un juego interactivo donde los usuarios dibujan objetos y una inteligencia artificial intenta adivinarlos. El proyecto utiliza **TensorFlow**, **FastAPI** y **p5.js**, proporcionando una experiencia educativa que enseña tanto el reconocimiento de imágenes como la interacción con modelos de IA. El backend maneja la generación de datos, el procesamiento de imágenes y el entrenamiento de un modelo de deep learning.
 
 ![Inicio](https://github.com/user-attachments/assets/18bdd341-2617-4ee6-a4fe-8d1fb504b728)
@@ -12,7 +12,7 @@ IA Draw es un juego interactivo donde los usuarios dibujan objetos y una intelig
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Contribuciones](#contribuciones)
 
-## Instalación
+## 🖥️ Instalación
 
 1. Clona el repositorio a tu máquina local:
    ```zsh
@@ -49,7 +49,7 @@ IA Draw es un juego interactivo donde los usuarios dibujan objetos y una intelig
 4. Haz clic en el botón ¡LISTO! para que la IA intente adivinar lo que has dibujado.
 5. La IA mostrará si acertaste o si necesitas intentarlo de nuevo.
 
-## Características
+## 🚀 Características
 - __Reconocimiento de dibujos__: El juego utiliza un modelo de TensorFlow Lite para adivinar los objetos dibujados por el jugador.
 - __Generación de datos__: El backend genera imágenes de entrenamiento utilizando la API de QuickDraw para clases específicas.
 - __Entrenamiento de IA__: Un modelo de reconocimiento de imágenes se entrena con imágenes de QuickDraw y se exporta en formato TensorFlow Lite.
@@ -61,23 +61,19 @@ IA Draw es un juego interactivo donde los usuarios dibujan objetos y una intelig
 El backend de IA Draw está desarrollado utilizando FastAPI. Sus principales funciones son:
 
 __1. Transformación de imágenes:__
-
     La API recibe los trazos dibujados por el usuario y genera una imagen a partir de ellos.
     Las imágenes generadas se envían de vuelta al frontend para su procesamiento y se eliminan automáticamente tras ser enviadas.
 
 __2. Generación de datasets:__
-
     Utilizando la librería QuickDraw, el backend permite generar imágenes de clases específicas (como "gato" o "perro") que se utilizan para entrenar el modelo de IA.
 
 __3. Entrenamiento del modelo:__
-
     El backend entrena un modelo de reconocimiento de dibujos usando imágenes de QuickDraw y TensorFlow. El modelo entrenado se guarda en formato .tflite, listo para su uso en el frontend.
 
 __4. Modelo de reconocimiento:__
-
     El modelo de TensorFlow Lite se entrena utilizando una red neuronal convolucional. Una vez entrenado, el modelo se utiliza para hacer predicciones sobre los dibujos realizados por el jugador.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 La estructura del proyecto se organiza de la siguiente manera:
 
